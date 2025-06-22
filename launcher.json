@@ -1,0 +1,36 @@
+{
+  "inject_target": "gta_sa.exe",
+  "game_paths": [
+    "samp.exe",
+    "samp_debug.exe",
+    "samp.saa",
+    "sampaux3.ttf",
+    "SAMPUninstall.exe",
+    "gtaweap3.ttf",
+    "samp.dll",
+    "gta_sa.exe",
+    "clientside.dll",
+    "bass.dll",
+    "vorbis.dll",
+    "vorbisFile.dll",
+    "vorbisHooked.dll"
+  ],
+  "cheats": [
+    {
+      "id": 0,
+      "label": "Vehicle Catcher",
+      "description": "Чит на ловлю авто с салона | Активация: SPACE + b",
+      "review": "https://youtube.com/",
+      "image": "https://raw.githubusercontent.com/StepaniyAlmazov/Veloonecy-Launcher/refs/heads/main/VehicleCatcher/image.png",
+      "url": "https://raw.githubusercontent.com/StepaniyAlmazov/Veloonecy-Launcher/refs/heads/main/VehicleCatcher/VehCatcher.asi",
+      "format": "asi",
+      "available": true,
+      "inject": true,
+      "install": {
+        "status": true,
+        "zip": false,
+        "output": "VehCatcher.asi"
+      }
+    }
+  ]
+}
